@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.orazoulay.requestapplication.registerActivity">
+
+
+    <ImageButton
+        android:id="@+id/regPic_IB"
+
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/regFirstName_ET"
+        />
+
+    <EditText
+        android:id="@+id/regFirstName_ET"
+        android:layout_width="@dimen/regET"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:hint="First Name"
+        />
+    <EditText
+        android:id="@+id/regLastName_ET"
+        android:layout_width="@dimen/regET"
+        android:layout_height="50dp"
+        android:layout_below="@+id/regFirstName_ET"
+        android:hint="Last Name"
+        />
+    <EditText
+        android:id="@+id/regUserName_ET"
+        android:layout_width="@dimen/regET"
+        android:layout_height="50dp"
+        android:layout_below="@id/regLastName_ET"
+        android:hint="User Name"
+        />
+    <EditText
+        android:id="@+id/regPassword_ET"
+        android:layout_width="@dimen/regET"
+        android:layout_height="50dp"
+        android:layout_below="@+id/regUserName_ET"
+        android:hint="Password"
+        />
+    <EditText
+        android:id="@+id/regStreet_ET"
+        android:layout_width="@dimen/regET"
+        android:layout_height="50dp"
+        android:layout_below="@id/regPassword_ET"
+        android:hint="Street"
+        />
+    <EditText
+        android:id="@+id/regCity_ET"
+        android:layout_width="@dimen/regET"
+        android:layout_height="50dp"
+        android:layout_below="@+id/regStreet_ET"
+        android:hint="City"
+        />
+
+    <EditText
+        android:id="@+id/regEmail_ET"
+        android:layout_width="@dimen/regET"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/regCity_ET"
+        android:hint="Email"
+        />
+    <EditText
+        android:id="@+id/regPhoneNum_ET"
+        android:layout_width="@dimen/regET"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/regEmail_ET"
+        android:hint="Phone Number"
+        />
+
+    <Button
+        android:id="@+id/save_B"
+        android:text="SAVE"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/regPhoneNum_ET"
+        android:layout_alignEnd="@+id/regPic_IB" />
+
+
+</RelativeLayout>
+

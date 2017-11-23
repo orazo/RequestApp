@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.orazoulay.requestapplication.MainActivity">
+
+
+    <EditText
+        android:id="@+id/userName_ET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="User Name"
+        />
+
+    <EditText
+        android:id="@+id/password_ET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/userName_ET"
+        android:layout_below="@+id/userName_ET"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/Login_B"
+        android:text="LOGIN"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/password_ET"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="90dp"
+        />
+    <Button
+        android:id="@+id/Register_B"
+        android:text="REGISTER"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Login_B"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="90dp"
+        />
+</RelativeLayout>
