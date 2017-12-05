@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">RequestApplication</string>
     <string name="title_activity_maps">Map</string>
+    <string name="login">LOGIN</string>
+    <string name="passwordHint">Password</string>
+    <string name="readme">README</string>
+    <string name="register">REGISTER</string>
+    <string name="user_name">User Name</string>
+    <string name="app_information">App Information</string>
+    <string name="str1">"This application desinged to organization" </string>
+    <string name="str2">" the demand for supply of products." </string>
+    <string name="str3">"This version is for Student Association's products." </string>
+    <string name="str4">" This Demo allow only to register, using identifying" </string>
+    <string name="str5">"information, Googld Map location (by Address)" </string>
+    <string name="str6">"and picture upload." </string>
+    <string name="exit">EXIT</string>
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="save">SAVE</string>
 </resources>

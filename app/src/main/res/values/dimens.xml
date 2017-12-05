@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="MapTextSize">12sp</dimen>
     <dimen name="regET">250dp</dimen>
+    <dimen name="titleWid">60dp</dimen>
+    <dimen name="MapUpLineWid">130dp</dimen>
+    <dimen name="MapUpLineHei">30dp</dimen>
+    <dimen name="MapLowerLinewid">130dp</dimen>
+    <dimen name="MapLowerLineHei">30dp</dimen>
+    <dimen name="LoginButtonWid">200dp</dimen>
+    <dimen name="ButtonLoginHei">50dp</dimen>
+    <dimen name="loginMargTop">20dp</dimen>
+    <dimen name="loginMargStart">90dp</dimen>
+    <dimen name="saveWid">80dp</dimen>
+    <dimen name="saveHei">40dp</dimen>
+
+
 </resources>

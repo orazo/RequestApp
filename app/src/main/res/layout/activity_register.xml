@@ -35,28 +35,28 @@
         android:layout_width="@dimen/regET"
         android:layout_height="50dp"
         android:layout_below="@id/regLastName_ET"
-        android:hint="User Name"
+        android:hint="@string/user_name"
         />
     <EditText
         android:id="@+id/regPassword_ET"
         android:layout_width="@dimen/regET"
         android:layout_height="50dp"
         android:layout_below="@+id/regUserName_ET"
-        android:hint="Password"
+        android:hint="@string/passwordHint"
         />
     <EditText
         android:id="@+id/regStreet_ET"
         android:layout_width="@dimen/regET"
         android:layout_height="50dp"
         android:layout_below="@id/regPassword_ET"
-        android:hint="Street"
+        android:hint="@string/street"
         />
     <EditText
         android:id="@+id/regCity_ET"
         android:layout_width="@dimen/regET"
         android:layout_height="50dp"
         android:layout_below="@+id/regStreet_ET"
-        android:hint="City"
+        android:hint="@string/city"
         />
 
     <EditText
@@ -65,7 +65,7 @@
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/regCity_ET"
-        android:hint="Email"
+        android:hint="@string/email"
         />
     <EditText
         android:id="@+id/regPhoneNum_ET"
@@ -73,14 +73,14 @@
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/regEmail_ET"
-        android:hint="Phone Number"
+        android:hint="@string/phone_number"
         />
 
     <Button
         android:id="@+id/save_B"
-        android:text="SAVE"
-        android:layout_width="80dp"
-        android:layout_height="40dp"
+        android:text="@string/save"
+        android:layout_width="@dimen/saveWid"
+        android:layout_height="@dimen/saveHei"
         android:layout_alignBottom="@+id/regPhoneNum_ET"
         android:layout_alignEnd="@+id/regPic_IB" />
 
