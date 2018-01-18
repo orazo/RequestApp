@@ -19,3 +19,17 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+-keep class com.example.orazoulay.requestapplication.registerActivity{
+private void selectImage();
+}
+
+#we want to check if the google map works fine.
+-keep class com.example.orazoulay.requestapplication.Students{
+public String getCity();
+}
+
+#we keep Students class and his private fields because we wanted to know
+#what fields we have that we will can push students with that fields via python
+-keepclassmembers class com.example.orazoulay.requestapplication.Students {
+    private <fields>;
+}
